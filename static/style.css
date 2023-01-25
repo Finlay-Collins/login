@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    position: center;
+    padding: 1em;
+}
+
+q {
+    position: center;
+    padding-bottom: 2em;
+    font-style: italic;
+}
+
+input {
+    border: none;
+    border-bottom: 2px ridge;
+    padding-top: 2em;
+}
+
+label {
+    padding-bottom: 1em;
+}
+
+#buttons {
+    padding-top: 2em;
+}
+
+button {
+    display: inline-block;
+    border-radius: 1px;
+    border-color: black;
+}

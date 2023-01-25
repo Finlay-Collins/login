@@ -10,6 +10,7 @@ namespace ServerSide
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the login server.");
         }
     }
 }
