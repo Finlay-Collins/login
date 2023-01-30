@@ -1,28 +1,34 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>FreeSoc</title>
+    <title>jakkaNet</title>
 </head>
 <body>
-    <h1>Login to FreeSoc</h1>
-    <q>Free software, free society.</q>
+    <script src="script.js" defer></script>
+    <h1>Login to jakkaNet</h1>
+    <q>Cool slogan</q>
     <div id="login">
         <label for="username">
             Username:
-            <input type="text" name="username" />
-        </label>
+            <input type="text" name="username" id="username" />
+        </label>      
         <br />
         <label for="password">
             Password:
-            <input type="password" name="password" />
+            <input type="password" name="password" id="password" />
         </label>
+    </div>
+    <div id="hints">
+        <p></p>
     </div>
 
     <div id="buttons">
-        <button>Log in</button>
+        <button onclick="reset();">Reset password</button>
+        <button onclick="login();">Log in</button>
+        <button onclick="createUser();">Create User</button>
     </div>
 </body>
 </html>

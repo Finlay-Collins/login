@@ -24,11 +24,17 @@ q {
 input {
     border: none;
     border-bottom: 2px ridge;
-    padding-top: 2em;
+    padding-top: 1.5em;
 }
 
 label {
     padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#hints {
+    padding-top: 1em;
+    color: red;
 }
 
 #buttons {
@@ -37,6 +43,14 @@ label {
 
 button {
     display: inline-block;
-    border-radius: 1px;
-    border-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1em;
+    font-size: 1em;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#buttons :hover {
+    background-color: lightgray;
 }
