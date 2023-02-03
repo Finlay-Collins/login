@@ -20,6 +20,7 @@ function login() {
 function presenceCheck(input, message) {
     if (input == "") {
         elements.hints.innerText = message;
+        setTimeout(() => { elements.hints.innerText = ""; }, 3000);
     }
 
     else {
